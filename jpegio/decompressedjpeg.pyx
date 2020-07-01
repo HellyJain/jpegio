@@ -25,9 +25,9 @@ cdef class DecompressedJpeg:
             del self._jstruct_obj
     
     cdef _is_valid_fpath(self, fpath):
-        if not os.path.isfile(fpath):
-            print("[JPEGIO] Wrong file path: %s" % (fpath))
-            return False
+#         if not os.path.isfile(fpath):
+#             print("[JPEGIO] Wrong file path: %s" % (fpath))
+#             return False
 
         return True
 
